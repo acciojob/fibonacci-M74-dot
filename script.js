@@ -7,7 +7,7 @@ function fibonacci(num) {
 		let ans = dp[i-1]+dp[i-2];
 		dp.push(ans);
 	}
-	return dp[num];
+	return dp[num-1];
 }
 
 module.exports = fibonacci;
