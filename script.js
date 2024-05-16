@@ -1,6 +1,7 @@
 function fibonacci(num) {
 // your code here
-	if(num<=1)return num;
+	if(num==1)return 0;
+	if(num==2)return 1;
 
 	let dp = [0,1];
 	for(let i=2; i<num; i++){
